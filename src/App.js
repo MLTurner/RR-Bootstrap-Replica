@@ -1,10 +1,15 @@
 import './App.css';
+import TopBar from './components/TopBar'
+import MainPhoto from './components/MainPhoto'
+import StoreListings from './components/StoreListings';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    return (
+      <div className="App">
+        <TopBar />
+        <MainPhoto />
+        <StoreListings />
+      </div>
   );
 }
 
